@@ -3,48 +3,155 @@
 <head>
 <meta charset="utf-8" />
 <title>SIMPLIFY·IA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="h-full bg-white text-slate-900">
-<header class="p-4 font-bold">SIMPLIFY·IA</header>
-<main class="space-y-16 p-4 max-w-5xl mx-auto">
-<section class="text-center space-y-4">
-<h1 class="text-3xl font-bold">Transformo tu empresa en una organización más productiva y rentable.</h1>
-<p class="text-lg">Integro procesos estandarizados, ERP (Dynamics 365 Business Central) e IA aplicada para controlar costes, anticipar desviaciones y acelerar la ejecución.</p>
-<a href="#contacto" class="bg-green-600 text-white px-4 py-2 rounded">Cuéntame tu reto</a>
+<body class="h-full bg-white text-slate-900" style="font-family: 'Inter', sans-serif;">
+<header class="bg-white shadow">
+  <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+    <a href="#" class="text-2xl font-bold text-emerald-600">SIMPLIFY·IA</a>
+    <nav class="space-x-4 text-sm">
+      <a href="#servicios" class="hover:text-emerald-600">Servicios</a>
+      <a href="#metodologia" class="hover:text-emerald-600">Metodología</a>
+      <a href="#resultados" class="hover:text-emerald-600">Resultados</a>
+      <a href="#faq" class="hover:text-emerald-600">FAQ</a>
+      <a href="#contacto" class="hover:text-emerald-600">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<section class="relative">
+  <img src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=1920&q=80" alt="Equipo de trabajo" class="w-full h-96 object-cover">
+  <div class="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-center text-white p-4">
+    <h1 class="text-4xl font-bold mb-4">Transformamos tu empresa en una organización más productiva y rentable.</h1>
+    <p class="text-lg mb-6 max-w-2xl">Integramos procesos estandarizados, ERP (Dynamics 365 Business Central) e IA aplicada para controlar costes, anticipar desviaciones y acelerar la ejecución.</p>
+    <a href="#contacto" class="bg-emerald-600 hover:bg-emerald-500 text-white px-6 py-3 rounded">Cuéntame tu reto</a>
+  </div>
 </section>
-<section>
-<h2 class="text-2xl font-semibold text-center mb-4">Servicios</h2>
-<div class="grid md:grid-cols-3 gap-4 text-sm">
-<div class="border p-4">Dirección estratégica y operativa</div>
-<div class="border p-4">Implantación ERP (Dynamics 365 BC)</div>
-<div class="border p-4">Central de Compras Inteligente (IA)</div>
-<div class="border p-4">Lean Construction y excelencia operacional</div>
-<div class="border p-4">Analítica predictiva</div>
-<div class="border p-4">Formación ejecutiva en IA aplicada</div>
-</div>
+
+<section id="servicios" class="py-16 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-4">
+    <h2 class="text-3xl font-semibold text-center mb-12">Servicios</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white p-6 rounded shadow">
+        <img src="https://images.unsplash.com/photo-1557200134-90327ee9fafa?auto=format&fit=crop&w=600&q=80" alt="Dirección estratégica" class="h-40 w-full object-cover rounded mb-4">
+        <h3 class="font-semibold mb-2">Dirección estratégica y operativa</h3>
+        <p class="text-sm">Impulsamos tu organización hacia la excelencia con planificación y seguimiento efectivos.</p>
+      </div>
+      <div class="bg-white p-6 rounded shadow">
+        <img src="https://images.unsplash.com/photo-1559027615-cd4629a90b58?auto=format&fit=crop&w=600&q=80" alt="Implantación ERP" class="h-40 w-full object-cover rounded mb-4">
+        <h3 class="font-semibold mb-2">Implantación ERP (Dynamics 365 BC)</h3>
+        <p class="text-sm">Integramos soluciones ERP adaptadas a tus procesos para mejorar la gestión empresarial.</p>
+      </div>
+      <div class="bg-white p-6 rounded shadow">
+        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=80" alt="Central de Compras" class="h-40 w-full object-cover rounded mb-4">
+        <h3 class="font-semibold mb-2">Central de Compras Inteligente (IA)</h3>
+        <p class="text-sm">Optimizamos tus compras con algoritmos que analizan y anticipan necesidades.</p>
+      </div>
+      <div class="bg-white p-6 rounded shadow">
+        <img src="https://images.unsplash.com/photo-1558211583-d26f39f1fd53?auto=format&fit=crop&w=600&q=80" alt="Lean Construction" class="h-40 w-full object-cover rounded mb-4">
+        <h3 class="font-semibold mb-2">Lean Construction y excelencia operacional</h3>
+        <p class="text-sm">Aplicamos metodologías Lean para reducir desperdicios y aumentar la productividad.</p>
+      </div>
+      <div class="bg-white p-6 rounded shadow">
+        <img src="https://images.unsplash.com/photo-1506765515384-028b60a970df?auto=format&fit=crop&w=600&q=80" alt="Analítica predictiva" class="h-40 w-full object-cover rounded mb-4">
+        <h3 class="font-semibold mb-2">Analítica predictiva</h3>
+        <p class="text-sm">Usamos datos para anticipar escenarios y apoyar la toma de decisiones.</p>
+      </div>
+      <div class="bg-white p-6 rounded shadow">
+        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=600&q=80" alt="Formación ejecutiva" class="h-40 w-full object-cover rounded mb-4">
+        <h3 class="font-semibold mb-2">Formación ejecutiva en IA aplicada</h3>
+        <p class="text-sm">Capacitamos a líderes para implementar IA en sus áreas de negocio.</p>
+      </div>
+    </div>
+  </div>
 </section>
-<section>
-<h2 class="text-2xl font-semibold text-center mb-4">Metodología</h2>
-<ol class="flex justify-between text-sm">
-<li>Diagnóstico</li>
-<li>Hoja de Ruta</li>
-<li>MVPs & Pilotos</li>
-<li>Escalado</li>
-<li>Gobierno & Mejora Continua</li>
-</ol>
+
+<section id="metodologia" class="py-16">
+  <div class="max-w-7xl mx-auto px-4">
+    <h2 class="text-3xl font-semibold text-center mb-12">Metodología</h2>
+    <ol class="flex flex-col md:flex-row justify-between text-sm space-y-4 md:space-y-0">
+      <li class="flex-1 text-center">
+        <div class="text-emerald-600 font-bold text-xl mb-2">1</div>
+        <div>Diagnóstico</div>
+      </li>
+      <li class="flex-1 text-center">
+        <div class="text-emerald-600 font-bold text-xl mb-2">2</div>
+        <div>Hoja de Ruta</div>
+      </li>
+      <li class="flex-1 text-center">
+        <div class="text-emerald-600 font-bold text-xl mb-2">3</div>
+        <div>MVPs & Pilotos</div>
+      </li>
+      <li class="flex-1 text-center">
+        <div class="text-emerald-600 font-bold text-xl mb-2">4</div>
+        <div>Escalado</div>
+      </li>
+      <li class="flex-1 text-center">
+        <div class="text-emerald-600 font-bold text-xl mb-2">5</div>
+        <div>Gobierno & Mejora Continua</div>
+      </li>
+    </ol>
+  </div>
 </section>
-<section>
-<h2 class="text-2xl font-semibold text-center mb-4">Resultados</h2>
-<ul class="text-sm space-y-2">
-<li>Ramp-up aeroestructuras → estabilización ~6 meses en takt ≈ 1 u.</li>
-<li>Roadmap 2024–27 → optimizar margen.</li>
-</ul>
+
+<section id="resultados" class="py-16 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-4">
+    <h2 class="text-3xl font-semibold text-center mb-12">Resultados</h2>
+    <ul class="space-y-4 text-sm max-w-3xl mx-auto">
+      <li>Ramp-up aeroestructuras → estabilización ~6 meses en takt ≈ 1 u.</li>
+      <li>Roadmap 2024–27 → optimizar margen.</li>
+    </ul>
+  </div>
 </section>
-<section id="contacto" class="text-center space-y-4">
-<h2 class="text-2xl font-semibold">Contacto</h2>
-<p>josemoyacarrasco@gmail.com</p>
+
+<section id="about" class="py-16">
+  <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-8 px-4">
+    <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=600&q=80" alt="Consultor" class="w-full md:w-1/2 rounded shadow">
+    <div>
+      <h2 class="text-3xl font-semibold mb-4">Sobre mí</h2>
+      <p class="text-sm">Acompaño a empresas en su transformación digital combinando estrategia, tecnología y personas. Mi misión es convertir la IA en una ventaja competitiva real.</p>
+    </div>
+  </div>
 </section>
-</main>
+
+<section id="faq" class="py-16 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-4">
+    <h2 class="text-3xl font-semibold text-center mb-12">Preguntas frecuentes</h2>
+    <div class="space-y-8 max-w-3xl mx-auto text-sm">
+      <div>
+        <h3 class="font-semibold mb-2">¿Qué beneficios aporta la IA a mi empresa?</h3>
+        <p>La IA permite automatizar tareas, anticipar necesidades y tomar decisiones basadas en datos.</p>
+      </div>
+      <div>
+        <h3 class="font-semibold mb-2">¿Cuánto tiempo se tarda en implantar un ERP?</h3>
+        <p>Depende de la complejidad, pero un proyecto típico puede durar de 3 a 6 meses.</p>
+      </div>
+      <div>
+        <h3 class="font-semibold mb-2">¿Ofrecéis soporte continuo tras la implantación?</h3>
+        <p>Sí, acompañamos a tu equipo con soporte y formación para garantizar el éxito a largo plazo.</p>
+      </div>
+      <div>
+        <h3 class="font-semibold mb-2">¿Qué sectores pueden beneficiarse?</h3>
+        <p>Trabajamos con empresas de industrias como construcción, manufactura y servicios profesionales.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contacto" class="py-16 bg-gray-900 text-white">
+  <div class="max-w-7xl mx-auto px-4 text-center">
+    <h2 class="text-3xl font-semibold mb-4">Contacto</h2>
+    <p class="mb-8">josemoyacarrasco@gmail.com</p>
+    <a href="mailto:josemoyacarrasco@gmail.com" class="bg-emerald-600 hover:bg-emerald-500 text-white px-6 py-3 rounded">Envíame un email</a>
+  </div>
+</section>
+
+<footer class="py-8 text-center text-xs text-gray-500">
+  &copy; 2024 Simplify·IA. Todos los derechos reservados.
+</footer>
+
 </body>
 </html>
