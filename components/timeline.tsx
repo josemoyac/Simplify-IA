@@ -2,12 +2,16 @@ interface Step { title: string; }
 
 export default function Timeline({ steps }: { steps: Step[] }) {
   return (
-    <ol className="flex flex-col md:flex-row md:items-center md:justify-between">
+    <ol className="grid gap-6 md:grid-cols-5">
       {steps.map((s, i) => (
-        <li key={s.title} className="flex items-center md:flex-1">
-          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-brand text-white mr-2">{i + 1}</span>
-          <span>{s.title}</span>
-          {i < steps.length - 1 && <span className="mx-2 hidden md:block">→</span>}
+        <li
+          key={s.title}
+          className="relative flex items-start gap-4 rounded-2xl border border-slate-200/80 bg-white/80 p-5 shadow-sm backdrop-blur dark:border-slate-800/80 dark:bg-slate-900/60"
+        >
+          <span className="flex h-10 w-10 items-center justify-center rounded-full bg-brand/10 text-brand font-semibold">
+            {i + 1}
+          </span>
+          <span className="text-sm font-semibold text-slate-800 dark:text-slate-100">{s.title}</span>
         </li>
       ))}
     </ol>
